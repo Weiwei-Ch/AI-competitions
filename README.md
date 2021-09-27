@@ -44,3 +44,6 @@ model: 在常规的数据处理和特征工程后,构建了关键的特征变量
 
 目的：展示本人部分的建模思维以及代码风格；同时，若恰有新手能看到此项目，希望能对有缘人的有所帮助；
 
+项目：基于id:记录唯一标识、time: 时间戳、customer_id:用户ID、age_group:年龄组别、gender:性别、zipcode_customer:用户邮编、merchant_id:商户 ID、zipcode_merchant:商户邮编 
+     type:交易类型、amount:交易金额、fraud(标签列):是否为欺诈字段，对交易是否为欺诈进行预测。提供训练集和测试集（没有标签）。
+
