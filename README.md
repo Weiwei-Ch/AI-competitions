@@ -14,7 +14,6 @@ model: Bert模型。因提供的文本数据为脱敏后的字符串，因原始
 代码：代码太多，未上传；
 
 
-
 2.阿里云安全恶意程序检测
 
 比赛：天池赛，链接https://tianchi.aliyun.com/competition/entrance/231694/information
@@ -26,8 +25,16 @@ model: 在常规的数据处理和特征工程后，依据所给的api字段的�
 代码：上传了一个主要版本的代码；
 
 
+3.贷款违约预测
 
-3.点击反欺诈预测
+比赛：天池赛，链接https://tianchi.aliyun.com/competition/entrance/531830/introduction
+
+model: 对原始数据进行数据处理和特征工程后,构建新的特征变量，再通过xgboost和ightbgm建模;
+
+天池得分：0.7355 (baseline 0.735）
+
+
+4.点击反欺诈预测
 
 比赛：百度飞浆赛，链接https://aistudio.baidu.com/aistudio/competition/detail/52
 
@@ -38,7 +45,7 @@ model: 在常规的数据处理和特征工程后,构建了关键的特征变量
 代码：上传了一个主要版本的代码；
 
 
-4.支付宝反欺诈交易预测
+5.支付宝反欺诈交易预测
 
 此项目上传了本人基于此项目从特征工程到建模全流程代码，有详细的特征工程构建、建模和模型预测过程，模型有涉及到xgboost、lightbgm、神经网络。同时，为了进一步探索此项目的深度学习应用，有基于customer_id下的merchant_id做的embedding，在文件中均有阐述。
 
